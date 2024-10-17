@@ -9,7 +9,7 @@
 <body>
     <?php
     //Tu codigo PHP aqui
-    echo "Hola,mundo!";
+    echo "Hola,soy lucia!";
     ?>
 </body>
 </html>
