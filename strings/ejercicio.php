@@ -1,7 +1,7 @@
 <?php
 #lucia vera perez
 #24-10-2024
-#ejercico bloque 1 strings
+#ejercico 1
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $nombre = htmlspecialchars($_POST['nombre']);
 $apellido = htmlspecialchars($_POST['apellido']);
@@ -19,6 +19,8 @@ echo "Tu nombre en mayusculas es " . strtoupper($nombre) . " y tu apellido en ma
 echo " el primer caracter de tu nombre es: " . " " . substr($nombre,0,1) . " y el ultimo: " . " " . substr($nombre, -1) . " la primera letra de tu apellido es: " . substr($apellido,0,1) . " y la ultima es: " . substr($apellido, -1) . "<br>";
 #Cambiar todas las vocales del nombre y el apellido por la u
 echo "si cambio las vocales por u mi nombre sería " . str_replace(["a","e","i","o"], "u", $nombre) . "<br>";
+
+#ejercicio 2
 #Añade al formulario tres campos para introducir dos números. El programa procesar debe mostrar la suma de los números, la diferencia, el cociente y el producto.
   // Realizar las operaciones matemáticas
 $suma = $n1 + $n2;
