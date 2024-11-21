@@ -10,7 +10,7 @@ try {
     // Valores que se insertarán en la base de datos
     $nombre = "lucia";
     $apellido = "Pérez";
-    $email = "lucia.perez@example.com";
+    $email = "lucia2.perez@example.com";
 
     // Consulta SQL para insertar los valores
     $sql = "INSERT INTO usuarios (nombre, apellido, email) VALUES ('$nombre', '$apellido', '$email')";
